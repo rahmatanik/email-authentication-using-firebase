@@ -1,7 +1,9 @@
+import Login from "../Login/Login";
+
 const Home = () => {
   return (
     <div>
-      <h2 className="text-3xl">This is home</h2>
+      <Login></Login>
     </div>
   );
 };
